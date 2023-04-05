@@ -1,5 +1,5 @@
 import React from "react";
-import WorkImg from "../assets/projects/workImg.jpeg";
+import FinanceMe from "../assets/projects/financeme.png";
 import Jokr from "../assets/projects/Jokr.gif";
 import Socials from "../assets/projects/Socials.gif";
 
@@ -47,6 +47,10 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
           >
             <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                InstaPic
+                <br />
+              </span>
               <span className="text-l font-bold text-white tracking-wider">
                 A full-stack social media app that allows users to share images
                 and comments with friends. <br /> Technologies: <br />
@@ -67,20 +71,31 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${FinanceMe})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                FinanceMe
+                <br />
+              </span>
+              <span className="text-l font-bold text-white tracking-wider">
+                A banking app where users can log in and connect their bank
+                accounts using the Plaid API's secure connection to easily
+                manage their finances. <br />
+                Technologies: <br />
+                Node.js Express Mongoose React Plaid MaterialUI
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
+                  <button
+                    disabled={true}
+                    className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
+                  >
+                    Not hosted yet!
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/Abi-Liu/Finance-Me">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
