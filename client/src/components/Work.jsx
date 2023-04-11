@@ -1,5 +1,5 @@
 import React from "react";
-import FinanceMe from "../assets/projects/financeme.png";
+import FinanceMe from "../assets/projects/financeme.gif";
 import Jokr from "../assets/projects/Jokr.gif";
 import Socials from "../assets/projects/Socials.gif";
 
