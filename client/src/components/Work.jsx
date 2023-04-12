@@ -87,12 +87,9 @@ const Work = () => {
                 Node.js Express Mongoose React Plaid MaterialUI
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
-                  <button
-                    disabled={true}
-                    className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg"
-                  >
-                    Not hosted yet!
+                <a href="https://finance-me.netlify.app/">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
                   </button>
                 </a>
                 <a href="https://github.com/Abi-Liu/Finance-Me">
