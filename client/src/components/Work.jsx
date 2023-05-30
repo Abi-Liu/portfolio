@@ -11,7 +11,9 @@ const Work = () => {
           <p className="text-4xl font-bold inline border-b-4 border-pink-600 text-gray-300">
             Work
           </p>
-          <p className="py-6">// Here is some of my recent work</p>
+          <p className="py-6">
+            // Please allow for slow load up times due to free hosting
+          </p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -29,7 +31,7 @@ const Work = () => {
                 Node.js Express Mongoose Ejs Bootstrap5
               </span>
               <div className="pt-8 text-center">
-                <a href="https://web-production-d555.up.railway.app/">
+                <a href="https://jokr-uvzc.onrender.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
@@ -57,7 +59,7 @@ const Work = () => {
                 Node.js Express Mongoose Ejs Cloudinary Bootstrap5
               </span>
               <div className="pt-8 text-center">
-                <a href="https://web-production-ed5b.up.railway.app/">
+                <a href="https://instapic-umux.onrender.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
