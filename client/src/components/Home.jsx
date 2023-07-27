@@ -1,8 +1,16 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
+import FileSaver from "file-saver";
 
 const Home = () => {
+  const saveFile = () => {
+    FileSaver.saveAs(
+      "https://abiliu.netlify.app/resources/Resume.pdf",
+      "Resume.pdf"
+    );
+  };
+
   return (
     <div name="home" className="bg-[#0a192f] w-full h-screen">
       {/* Container */}
@@ -19,7 +27,7 @@ const Home = () => {
           digital experiences as well as discovering creative new ways to tackle
           techincal problems.
         </p>
-        <div>
+        <div className="flex gap-3">
           <Link to="work" smooth={true} duration={500}>
             <button className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600">
               View Work{" "}
@@ -28,6 +36,12 @@ const Home = () => {
               </span>
             </button>
           </Link>
+          <button
+            onClick={saveFile}
+            className="group text-white border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600"
+          >
+            Download Resume
+          </button>
         </div>
       </div>
     </div>
