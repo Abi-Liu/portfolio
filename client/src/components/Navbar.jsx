@@ -122,7 +122,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://docs.google.com/document/d/1rAj9Oeefa9VMCD7_TtUyQlgTvRjvKaQO/edit?usp=sharing&ouid=109204111248911555247&rtpof=true&sd=true"
+              href="https://abiliu.netlify.app/resources/Resume.pdf"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
