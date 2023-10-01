@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Logo from "../assets/Logo.png";
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
+import {FaMedium} from "react-icons/fa6"
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { Link } from "react-scroll";
@@ -111,6 +112,14 @@ const Navbar = () => {
               GitHub <FaGithub size={30} />
             </a>
           </li>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#000000]">
+            <a
+              className="flex justify-between items-center w-full text-gray-300"
+              href="https://medium.com/@abiliu018"
+            >
+              Medium <FaMedium size={30} />
+            </a>
+          </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#EB4030]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
@@ -122,7 +131,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://abiliu.netlify.app/resources/Resume.pdf"
+              href="https://abiliu.netlify.app/resources/resume.pdf"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>

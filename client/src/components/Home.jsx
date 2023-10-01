@@ -6,8 +6,8 @@ import FileSaver from "file-saver";
 const Home = () => {
   const saveFile = () => {
     FileSaver.saveAs(
-      "https://abiliu.netlify.app/resources/Resume.pdf",
-      "Resume.pdf"
+      "https://abiliu.netlify.app/resources/resume.pdf",
+      "resume.pdf"
     );
   };
 
@@ -20,10 +20,10 @@ const Home = () => {
           Abi Liu
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#8892b0]">
-          I'm a Full Stack Developer.
+          I'm a Software Engineer.
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[650px]">
-          I'm a full-stack developer specializing in building exceptional
+          I'm a software engineer specializing in building exceptional
           digital experiences as well as discovering creative new ways to tackle
           techincal problems.
         </p>

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaMedium } from "react-icons/fa6";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 const Footer = () => {
@@ -20,6 +21,14 @@ const Footer = () => {
             href="https://github.com/Abi-Liu"
           >
             <FaGithub size={30} />
+          </a>
+        </li>
+        <li>
+          <a
+            className="flex justify-between items-center w-full text-gray-300"
+            href="https://medium.com/@abiliu018"
+          >
+            <FaMedium size={30} />
           </a>
         </li>
         <li>
