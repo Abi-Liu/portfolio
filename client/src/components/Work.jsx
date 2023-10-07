@@ -39,12 +39,12 @@ const Work = () => {
                 Javascript, Jest
               </span>
               <div className="pt-8 text-center">
-                <a href="https://valorantfinder.netlify.app/">
+                <a href="https://medium.com/@abiliu018/how-i-created-my-own-programming-language-from-scratch-9b99fa0a802b">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     <FaMedium />
                   </button>
                 </a>
-                <a href="https://github.com/Abi-Liu/Valorant-Team-Finder">
+                <a href="https://github.com/Abi-Liu/ToyScript">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     <FaGithub />
                   </button>
