@@ -1,9 +1,9 @@
 import React from "react";
-import FinanceMe from "../assets/projects/financeme.gif";
-import Jokr from "../assets/projects/jokr.png";
+import FinanceMe from "../assets/projects/financeme.png";
+import TextTunnel from "../assets/projects/texttunnel.gif";
 import Socials from "../assets/projects/socials.png";
-import ValorantFinder from "../assets/projects/ValorantFinder.gif";
-import Budgetbuddy from "../assets/projects/homepage.png";
+import ValorantFinder from "../assets/projects/ValorantFinder.png";
+import Budgetbuddy from "../assets/projects/budgetbuddy.png";
 import ToyScript from "../assets/projects/ToyScript.png";
 import { FaGithub } from "react-icons/fa";
 import { FaMedium } from "react-icons/fa6";
@@ -23,6 +23,33 @@ const Work = () => {
         </div>
 
         <div className="ml-[30px] lg:ml-[40px] grid sm:grid-cols-2 gap-4 max-w-[90%]">
+          <div
+            style={{ backgroundImage: `url(${TextTunnel})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
+          >
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-lg font-bold text-white tracking-wider">
+                TextTunnel
+                <br />
+              </span>
+              <p className="text-sm font-semibold text-white tracking-wider">
+                A real time chat application based entirely in your terminal
+              </p>
+              <br />
+              <p className="text-sm font-semibold text-white tracking-wider">
+                Technologies: Golang, PostgreSQL, Websockets, Docker, Bubbletea,
+                Google Cloud, Git
+              </p>
+              <div className="pt-8 text-center">
+                <a href="https://github.com/Abi-Liu/TextTunnel">
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    <FaGithub />
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div
             style={{ backgroundImage: `url(${Budgetbuddy})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
@@ -181,37 +208,6 @@ const Work = () => {
                   </button>
                 </a>
                 <a href="https://github.com/Abi-Liu/Socials">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    <FaGithub />
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${Jokr})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center text-center items-center mx-auto content-div "
-          >
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-lg font-bold text-white tracking-wider">
-                Jokr
-                <br />
-              </span>
-              <p className="text-sm font-semibold text-white tracking-wider">
-                A full-stack joke sharing platform.
-              </p>
-              <br />
-              <p className="text-sm font-semibold text-white tracking-wider">
-                Technologies: Node.js Express Mongoose Ejs Bootstrap5
-              </p>
-              <div className="pt-8 text-center">
-                <a href="https://jokr-uvzc.onrender.com/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    <AiFillEye />
-                  </button>
-                </a>
-                <a href="https://github.com/Abi-Liu/Jokr">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     <FaGithub />
                   </button>

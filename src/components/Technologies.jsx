@@ -2,13 +2,13 @@ import React from "react";
 import JavaScript from "../assets/javascript.png";
 import ReactImg from "../assets/react.png";
 import Node from "../assets/node.png";
-import Angular from "../assets/angular.png";
-import Docker from '../assets/docker.png'
+import Go from "../assets/go.png";
+import Docker from "../assets/docker.png";
 import Mongo from "../assets/mongo.png";
 import Typescript from "../assets/typescript.png";
-import Postgres from "../assets/postgres.png"
-import Java from "../assets/java.png"
-import Spring from "../assets/spring.png"
+import Postgres from "../assets/postgres.png";
+import Java from "../assets/java.png";
+import Spring from "../assets/spring.png";
 
 const Technologies = () => {
   return (
@@ -44,6 +44,10 @@ const Technologies = () => {
             <p className="my-4">JAVA</p>
           </div>
           <div className="shadow-md shadow-{#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={Go} alt="Golang icon" />
+            <p className="my-4">Golang</p>
+          </div>
+          <div className="shadow-md shadow-{#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Node} alt="Node icon" />
             <p className="my-4">NODE JS</p>
           </div>
@@ -56,15 +60,15 @@ const Technologies = () => {
             <p className="my-4">REACT</p>
           </div>
           <div className="shadow-md shadow-{#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Angular} alt="Angular icon" />
-            <p className="my-4">ANGULAR</p>
-          </div>
-          <div className="shadow-md shadow-{#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={Mongo} alt="Mongodb icon" />
             <p className="my-4">MONGO DB</p>
           </div>
           <div className="shadow-md shadow-{#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={Postgres} alt="Postgresdb icon" />
+            <img
+              className="w-20 mx-auto"
+              src={Postgres}
+              alt="Postgresdb icon"
+            />
             <p className="my-4">POSTGRES</p>
           </div>
           <div className="shadow-md shadow-{#040c16] hover:scale-110 duration-500">
